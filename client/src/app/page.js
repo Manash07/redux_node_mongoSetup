@@ -23,7 +23,7 @@ export default function Home() {
     e.preventDefault();
     // console.log(form)
 
-    const response = await fetch("http://localhost:8080/users", {
+    const response = await fetch("http://localhost:8080/user", {
       method: "POST", // since get method is used in node js
 
       body: JSON.stringify(form),
